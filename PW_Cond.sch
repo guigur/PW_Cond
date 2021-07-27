@@ -385,24 +385,24 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 5475 3150 50 
 $EndComp
 $Comp
 L Amplifier_Operational:MCP602 U2
-U 2 1 61044EEE
+U 1 1 61044EEE
 P 6875 2550
 F 0 "U2" H 6875 2183 50  0000 C CNN
 F 1 "MCP602" H 6875 2274 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6875 2550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 6875 2550 50  0001 C CNN
-	2    6875 2550
+	1    6875 2550
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:MCP602 U2
-U 1 1 61049572
+U 2 1 61049572
 P 4950 4525
 F 0 "U2" H 4950 4892 50  0000 C CNN
 F 1 "MCP602" H 4950 4801 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4950 4525 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 4950 4525 50  0001 C CNN
-	1    4950 4525
+	2    4950 4525
 	-1   0    0    -1  
 $EndComp
 $Comp
