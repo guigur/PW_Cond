@@ -634,42 +634,18 @@ Connection ~ 2575 6950
 Wire Wire Line
 	4250 2700 4250 4325
 $Comp
-L Device:LED D2
-U 1 1 612CB775
-P 5200 6800
-F 0 "D2" V 5239 6683 50  0000 R CNN
-F 1 "LED" V 5148 6683 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 5200 6800 50  0001 C CNN
-F 3 "~" H 5200 6800 50  0001 C CNN
-	1    5200 6800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R11
 U 1 1 612CDBEF
-P 5200 7175
-F 0 "R11" H 5270 7221 50  0000 L CNN
-F 1 "1k" H 5270 7130 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 7175 50  0001 C CNN
-F 3 "~" H 5200 7175 50  0001 C CNN
-	1    5200 7175
+P 5200 6800
+F 0 "R11" H 5270 6846 50  0000 L CNN
+F 1 "1k" H 5270 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 6800 50  0001 C CNN
+F 3 "~" H 5200 6800 50  0001 C CNN
+	1    5200 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 7025 5200 6950
-$Comp
-L power:GND #PWR02
-U 1 1 612D5DA3
-P 5200 7400
-F 0 "#PWR02" H 5200 7150 50  0001 C CNN
-F 1 "GND" H 5205 7227 50  0000 C CNN
-F 2 "" H 5200 7400 50  0001 C CNN
-F 3 "" H 5200 7400 50  0001 C CNN
-	1    5200 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 7400 5200 7325
 $Comp
 L power:+15V #PWR01
 U 1 1 612D8D42
@@ -697,7 +673,7 @@ U 1 1 613417CE
 P 850 6425
 F 0 "H1" H 950 6474 50  0000 L CNN
 F 1 "MountingHole_Pad" V 700 6125 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 850 6425 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 850 6425 50  0001 C CNN
 F 3 "~" H 850 6425 50  0001 C CNN
 	1    850  6425
 	1    0    0    -1  
@@ -708,7 +684,7 @@ U 1 1 61356980
 P 1250 6425
 F 0 "H3" H 1350 6474 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1100 6125 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1250 6425 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1250 6425 50  0001 C CNN
 F 3 "~" H 1250 6425 50  0001 C CNN
 	1    1250 6425
 	1    0    0    -1  
@@ -719,7 +695,7 @@ U 1 1 61359221
 P 1250 7100
 F 0 "H4" H 1350 7149 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1100 6800 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1250 7100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1250 7100 50  0001 C CNN
 F 3 "~" H 1250 7100 50  0001 C CNN
 	1    1250 7100
 	-1   0    0    1   
@@ -730,7 +706,7 @@ U 1 1 6135BC93
 P 850 7100
 F 0 "H2" H 950 7149 50  0000 L CNN
 F 1 "MountingHole_Pad" V 700 6800 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 850 7100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 850 7100 50  0001 C CNN
 F 3 "~" H 850 7100 50  0001 C CNN
 	1    850  7100
 	-1   0    0    1   
@@ -772,4 +748,28 @@ Wire Notes Line
 	575  5925 575  7700
 Text Notes 600  7675 0    50   ~ 0
 Fixations
+$Comp
+L power:GND #PWR02
+U 1 1 612D5DA3
+P 5200 7400
+F 0 "#PWR02" H 5200 7150 50  0001 C CNN
+F 1 "GND" H 5205 7227 50  0000 C CNN
+F 2 "" H 5200 7400 50  0001 C CNN
+F 3 "" H 5200 7400 50  0001 C CNN
+	1    5200 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 7400 5200 7325
+$Comp
+L Device:LED D2
+U 1 1 612CB775
+P 5200 7175
+F 0 "D2" V 5239 7058 50  0000 R CNN
+F 1 "LED" V 5148 7058 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5200 7175 50  0001 C CNN
+F 3 "~" H 5200 7175 50  0001 C CNN
+	1    5200 7175
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
