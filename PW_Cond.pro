@@ -1,4 +1,4 @@
-update=mer. 28 juil. 2021 12:59:03 CEST
+update=mer. 28 juil. 2021 15:47:42 CEST
 version=1
 last_client=kicad
 [general]
@@ -206,7 +206,7 @@ Enabled=0
 [pcbnew/Layer.F.Paste]
 Enabled=1
 [pcbnew/Layer.B.SilkS]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.SilkS]
 Enabled=1
 [pcbnew/Layer.B.Mask]
@@ -241,6 +241,17 @@ Name=Default
 Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Masse
+Clearance=0.2
+TrackWidth=0.5
+ViaDiameter=1
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
